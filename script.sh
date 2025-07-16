@@ -39,29 +39,29 @@ if [ ! -d "config" ]; then
 fi
 
 if [ ! -f "server.properties" ]; then
-    curl -o server.properties https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/server.properties
+    curl -o server.properties https://raw.githubusercontent.com/zelorahost/optimized-minecraft-egg/main/configs/server.properties
 fi
 
 if [ ! -f "bukkit.yml" ]; then
-    curl -o bukkit.yml https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/bukkit.yml
+    curl -o bukkit.yml https://raw.githubusercontent.com/zelorahost/optimized-minecraft-egg/main/configs/bukkit.yml
 fi
 
 if [ ! -f "spigot.yml" ]; then
-    curl -o spigot.yml https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/spigot.yml
+    curl -o spigot.yml https://raw.githubusercontent.com/zelorahost/optimized-minecraft-egg/main/configs/spigot.yml
 fi
 
 if [ ! -f "config/paper-global.yml" ]; then
-    curl -o config/paper-global.yml https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/paper-global.yml
+    curl -o config/paper-global.yml https://raw.githubusercontent.com/zelorahost/optimized-minecraft-egg/main/configs/paper-global.yml
 fi
 
 if [ ! -f "config/paper-world-defaults.yml" ]; then
-    curl -o config/paper-world-defaults.yml https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/paper-world-defaults.yml
+    curl -o config/paper-world-defaults.yml https://raw.githubusercontent.com/zelorahost/optimized-minecraft-egg/main/configs/paper-world-defaults.yml
 fi
 
 if [ ! -f "pufferfish.yml" ]; then
-    curl -o pufferfish.yml https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/pufferfish.yml
+    curl -o pufferfish.yml https://raw.githubusercontent.com/zelorahost/optimized-minecraft-egg/main/configs/pufferfish.yml
 fi
 
 if [ ! -f "config/purpur.yml" ]; then
-    curl -o purpur.yml https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/purpur.yml
+    curl -o purpur.yml https://raw.githubusercontent.com/zelorahost/optimized-minecraft-egg/main/configs/purpur.yml
 fi
