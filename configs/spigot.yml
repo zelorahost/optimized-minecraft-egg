@@ -60,7 +60,7 @@ world-settings:
       exp: 4.0
     nerf-spawner-mobs: false
     view-distance: default
-    mob-spawn-range: 8
+    mob-spawn-range: 3
     simulation-distance: default
     growth:
       cactus-modifier: 100
