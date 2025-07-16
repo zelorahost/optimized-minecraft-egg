@@ -91,7 +91,7 @@ collisions:
   only-players-collide: false
 entities:
   armor-stands:
-    do-collision-entity-lookups: true
+    do-collision-entity-lookups: false
     tick: true
   behavior:
     allow-spider-world-border-climbing: true
@@ -331,14 +331,19 @@ spawn:
 tick-rates:
   behavior:
     villager:
-      validatenearbypoi: -1
+      validatenearbypoi: 60
+      acquirepoi: 120
   container-update: 1
   dry-farmland: 1
   grass-spread: 4
   mob-spawner: 2
   sensor:
     villager:
-      secondarypoisensor: 40
+      secondarypoisensor: 80
+      nearestbedsensor: 80
+      villagerbabiessensor: 40
+      playersensor: 40
+      nearestlivingentitysensor: 40
   wet-farmland: 1
 unsupported-settings:
   fix-invulnerable-end-crystal-exploit: true
