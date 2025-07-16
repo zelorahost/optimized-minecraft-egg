@@ -60,6 +60,7 @@ chunks:
   entity-per-chunk-save-limit:
     area_effect_cloud: 8
     arrow: 16
+    breeze_wind_charge: 8
     dragon_fireball: 3
     egg: 8
     ender_pearl: 8
@@ -69,12 +70,14 @@ chunks:
     fireball: 8
     firework_rocket: 8
     llama_spit: 3
-    potion: 8
+    splash_potion: 8
+    lingering_potion: 8
     shulker_bullet: 8
     small_fireball: 8
     snowball: 8
     spectral_arrow: 16
     trident: 16
+    wind_charge: 8
     wither_skull: 4
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
